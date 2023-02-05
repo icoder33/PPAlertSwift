@@ -16,6 +16,7 @@
 		4BEFF5D2298D9B25003E2901 /* PPAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFF5D1298D9B25003E2901 /* PPAlertTests.swift */; };
 		4BEFF5DC298D9B25003E2901 /* PPAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFF5DB298D9B25003E2901 /* PPAlertUITests.swift */; };
 		4BEFF5DE298D9B25003E2901 /* PPAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFF5DD298D9B25003E2901 /* PPAlertUITestsLaunchTests.swift */; };
+		4BEFF5EC298D9BA0003E2901 /* PPAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEFF5EB298D9BA0003E2901 /* PPAlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4BEFF5D7298D9B25003E2901 /* PPAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEFF5DB298D9B25003E2901 /* PPAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPAlertUITests.swift; sourceTree = "<group>"; };
 		4BEFF5DD298D9B25003E2901 /* PPAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BEFF5EB298D9BA0003E2901 /* PPAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPAlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4BEFF5B9298D9B22003E2901 /* PPAlert */ = {
 			isa = PBXGroup;
 			children = (
+				4BEFF5EA298D9B47003E2901 /* Alert */,
 				4BEFF5BA298D9B22003E2901 /* AppDelegate.swift */,
 				4BEFF5BC298D9B22003E2901 /* SceneDelegate.swift */,
 				4BEFF5BE298D9B22003E2901 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				4BEFF5DD298D9B25003E2901 /* PPAlertUITestsLaunchTests.swift */,
 			);
 			path = PPAlertUITests;
+			sourceTree = "<group>";
+		};
+		4BEFF5EA298D9B47003E2901 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				4BEFF5EB298D9BA0003E2901 /* PPAlertController.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				4BEFF5BF298D9B22003E2901 /* ViewController.swift in Sources */,
 				4BEFF5BB298D9B22003E2901 /* AppDelegate.swift in Sources */,
+				4BEFF5EC298D9BA0003E2901 /* PPAlertController.swift in Sources */,
 				4BEFF5BD298D9B22003E2901 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
